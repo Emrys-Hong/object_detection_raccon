@@ -49,7 +49,7 @@ It can also be generated from a single annotation csv file. This is for customer
 do not want to deal with XML files. The annotations need to be in the following format:
 
 ```
-imageName,height,width,category,xmin,ymin,xmax,ymax
+imageName,height,width,category,xmin,ymin,xmax,ymax ## but here you need to delete the first line
 2007_000027,500,486,person,174,101,349,351
 ```
 Once you have a csv file in the above format the following code can be used to generate
